@@ -1,0 +1,152 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main navbar atop the page */
+.navbar {
+    background-color: #F77F00;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    min-height: 60px;
+}
+/* Brand/title on navbar */
+.navbar .navbar-brand {
+    color: #FFF;
+    font-size: x-large;
+    font-weight: bold;
+}
+/* Small tagline below the navbar brand */
+.navbar-brand small {
+    display:block;
+    font-size:12px;
+}
+/* All links in navbar */
+.navbar a, .navbar a:visited, .navbar a:active, .navbar a:hover {
+    color: #FFF !important;
+}
+/* Container that holds links on mobile */
+.navbar .navbar-collapse, .navbar .navbar-form {
+    border: none;   //keeps white border from appearing above top link in menu on mobile
+}
+/* Added padding to increase navbar height on standard screen */
+@media(min-width:767px) {
+    .navbar li a {
+        padding: 20px;  //maintains space around links to allow for the tagline below the navbar brand 
+    }
+}
+/* Currently selected/active navbar link */
+.navbar-default li.active a {
+    background-color: #006C93 !important;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/**** Sections ****/
+
+.intro-section {
+    background-image: URL("../img/intro_bg.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #F0EDE4;
+    height: 550px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+/* Logo should be slightly less wide on standard */
+@media(min-width:767px) {
+    #logo {
+        max-width: 90%;
+    }
+}
+
+.intro-section .tag-line {
+    background-color: #F0EDE4;
+    padding: 5px;
+    background:rgba(255,255,255,0.8);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width:767px) {
+    .intro-section .tag-line {
+        max-width: 70%;
+    }
+}
+
+.section-limestone {
+    background-color: #F0EDE4;
+}
+
+.section-summitt {
+    background-color: #B9E1E2;
+}
+
+.content-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: left;
+    color: #006C93;
+}
+
+@media(min-width:767px) {
+    /* Make content section containers narrower than the nav on standard screens */
+    .content-section .container {
+        max-width: 65%;
+    }
+}
+
+.footer-section {
+    color: #FFF;
+    background-color: #4C4D4F;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.footer-section .social-media-icons, .footer-section .sponsors {
+    text-align: center;
+}
+
+.footer-section .sponsors img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    //color: #006C93;
+    text-align: center;
+}
