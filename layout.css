@@ -68,7 +68,7 @@ html {
 /**** Sections ****/
 
 .intro-section {
-    background-image: URL("../img/intro_bg.png");
+    background-image: URL("../images/intro_bg.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: #F0EDE4;
