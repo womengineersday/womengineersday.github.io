@@ -85,7 +85,7 @@ html {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0px auto 30px auto;
+    margin: 0px auto 20px auto;
 }
 /* Logo should be slightly less wide on standard */
 @media(min-width:767px) {
@@ -94,36 +94,22 @@ html {
     }
 }
 
-.intro-section .tag-line {
+.intro-section .feature-content {
     background-color: #F0EDE4;
     background:rgba(255,255,255,0.8);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
+    margin: 0px auto 20px auto;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
 }
 
-@media(min-width:767px) {
-    .intro-section .tag-line {
-        margin-top: 20px;
-        max-width: 70%;
-    }
-}
-
-.intro-section .tag-line .btn-register {
+.intro-section .btn-register {
     background-color: #F77F00;
     color: #FFFFFF;
     border: none;
     font-size: x-large;
     font-weight: bold;
-}
-
-.intro-section .social-media-icons {
-    background-color: #F77F00;
-    background: rgba(255,255,255,0.8);
-    text-align: center;
-    margin: 20px auto 0px auto;
-    max-width: 180px;
-    padding: 10px;
 }
 
 .section-limestone {
@@ -153,16 +139,12 @@ html {
     background-color: #4C4D4F;
     padding-top: 50px;
     height: 100%;
-}
-
-.footer-section .social-media-icons, .footer-section .sponsors {
     text-align: center;
 }
 
-.footer-section .sponsors img{
-    max-width: 20%;
-    height: auto;
-    border-radius: 2px;
+.footer-section a, .footer-section a:active, .footer-section a:visited, .footer-section a:hover {
+    color: #FFF;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
