@@ -220,7 +220,7 @@ html {
 
 .footer-section a, .footer-section a:active, .footer-section a:visited, .footer-section a:hover {
     color: #FFF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*** GENERAL CONTENT ***/
