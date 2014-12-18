@@ -104,6 +104,15 @@ html {
     }
 }
 
+.intro-section .tag-line .btn-register {
+    background-color: #F77F00;
+    color: #FFFFFF;
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
 .section-limestone {
     background-color: #F0EDE4;
 }
