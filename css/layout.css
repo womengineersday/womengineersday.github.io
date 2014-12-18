@@ -68,7 +68,7 @@ html {
     color: #FFF;
     font-weight: bold;
 }
-@media(min-width:767px) {
+@media(min-width:1000px) {
     .navbar .navbar-brand {
         font-size: x-large;
     }
@@ -87,7 +87,7 @@ html {
     border: none;   //keeps white border from appearing above top link in menu on mobile
 }
 /* Added padding to increase navbar height on standard screen */
-@media(min-width:767px) {
+@media(min-width:1000px) {
     .navbar li a {
         padding: 20px 10px 20px 10px;  //maintains space around links to allow for the tagline below the navbar brand 
     }
@@ -97,7 +97,7 @@ html {
     background-color: #006C93 !important;
 }
 
-@media(min-width:767px) {
+@media(min-width:1000px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -131,7 +131,7 @@ html {
     margin: 0px auto 20px auto;
 }
 /* Logo should be slightly less wide on standard */
-@media(min-width:767px) {
+@media(min-width:1000px) {
     #logo {
         max-width: 80%;
     }
@@ -153,6 +153,16 @@ html {
     border: none;
     font-size: x-large;
     font-weight: bold;
+    display: block;
+    margin: 10px auto 0px auto;
+    max-width: 50%;
+}
+
+@media(min-width:1000px) {
+    .intro-section .btn-register {
+        margin: 0px;
+        display: inline;
+    }
 }
 
 /** Generic section style **/
@@ -172,7 +182,7 @@ html {
     color: #006C93;
 }
 
-@media(min-width:767px) {
+@media(min-width:1000px) {
     /* Make content section containers narrower than the nav on standard screens */
     .content-section .container {
         max-width: 65%;
@@ -193,6 +203,8 @@ html {
     color: #FFF;
     text-decoration: none;
 }
+
+/*** CONTENT ***/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
