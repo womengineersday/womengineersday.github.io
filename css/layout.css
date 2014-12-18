@@ -34,17 +34,17 @@ html {
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
+        top: 0;
+        border-width: 0 0 1px;
+    }
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
         float: none!important;
-		margin-top: 7.5px;
-	}
-	.navbar-nav>li {
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
         float: none;
     }
     .navbar-nav>li>a {
@@ -52,8 +52,8 @@ html {
         padding-bottom: 10px;
     }
     .collapse.in{
-  		display:block !important;
-	}
+        display:block !important;
+    }
 }
 
 /* Main navbar atop the page */
@@ -147,21 +147,26 @@ html {
     border-radius: 3px;
 }
 
+.intro-section .feature-content h3 {
+    display: block;
+}
+
 .intro-section .btn-register {
     background-color: #F77F00;
     color: #FFFFFF;
     border: none;
     font-size: x-large;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     margin: 10px auto 0px auto;
-    max-width: 50%;
 }
 
 @media(min-width:1000px) {
+    .intro-section .feature-content h3 {
+        display: inline-block;
+    }
     .intro-section .btn-register {
-        margin: 0px;
-        display: inline;
+        margin-top: -5px;
     }
 }
 
@@ -176,8 +181,8 @@ html {
 }
 
 .content-section {
-    height: 100%;
-    padding-top: 50px;
+    min-height: 100%;
+    padding: 50px 5px 50px 5px;
     text-align: left;
     color: #006C93;
 }
@@ -187,6 +192,20 @@ html {
     .content-section .container {
         max-width: 65%;
     }
+}
+
+/* Images of speakers for the speakers section */
+#speakers img.speaker {
+    width: 90%;
+    height: auto;
+    border: 3px solid #4C4D4F;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+/* Center the register section for now */
+#register {
+    text-align: center;
 }
 
 /** Footer section and content **/
@@ -204,11 +223,20 @@ html {
     text-decoration: none;
 }
 
-/*** CONTENT ***/
+/*** GENERAL CONTENT ***/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    margin: 20px;
 }
+
+/* Center the AddThis FB and Twitter Icons */
+div.addthis_horizontal_follow_toolbox {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
