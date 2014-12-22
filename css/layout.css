@@ -162,7 +162,7 @@ html {
     border: none;
     font-size: x-large;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     margin: 10px auto 0px auto;
 }
 
