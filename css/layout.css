@@ -149,6 +149,11 @@ html {
 
 .intro-section .feature-content h3 {
     display: block;
+    font-size: medium;
+}
+
+@media(min-width:1000px) {
+       
 }
 
 .intro-section .btn-register {
