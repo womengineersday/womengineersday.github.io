@@ -89,7 +89,7 @@ html {
 /* Added padding to increase navbar height on standard screen */
 @media(min-width:1000px) {
     .navbar li a {
-        padding: 20px 10px 20px 10px;  //maintains space around links to allow for the tagline below the navbar brand 
+        padding: 20px 10px 20px 10px;  //maintains space around links to allow for the tagline below the navbar brand
     }
 }
 /* Currently selected/active navbar link */
@@ -154,7 +154,7 @@ html {
 
 @media(min-width:1000px) {
    .intro-section .feature-content h3 {
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -169,12 +169,10 @@ html {
 }
 
 @media(min-width:1000px) {
-    .intro-section .feature-content h3 {
-        display: inline-block;
-    }
     .intro-section .btn-register {
         margin-top: -5px;
         font-size: x-large;
+        display: inline-block;
     }
 }
 
@@ -202,6 +200,46 @@ html {
     }
 }
 
+#schedule-table .row div{
+  padding: 3px;
+  text-align: center;
+}
+
+@media(min-width:1000px) {
+  #schedule-table .row div{
+    padding: 5px;
+    text-align: left;
+  }
+}
+
+#schedule-table .time {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px dashed #006C93;
+  padding-bottom: 5px;
+}
+
+#schedule-table .title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#schedule-table .subtitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media(min-width:1000px) {
+  #schedule-table .time {
+    text-align: right;
+    padding-right: 5px;
+    border: none;
+  }
+  #schedule-table .title {
+    text-align: left;
+  }
+}
+
 /* Images of speakers for the speakers section */
 #speakers img.speaker {
     width: 90%;
@@ -222,7 +260,7 @@ html {
     color: #FFF;
     background-color: #4C4D4F;
     padding-top: 50px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
 }
 
@@ -246,5 +284,3 @@ div.addthis_horizontal_follow_toolbox {
     display: inline-block;
     margin: 0 auto;
 }
-
-
