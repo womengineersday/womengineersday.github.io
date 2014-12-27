@@ -68,6 +68,7 @@ html {
     color: #FFF;
     font-weight: bold;
 }
+
 @media(min-width:1000px) {
     .navbar .navbar-brand {
         font-size: x-large;
@@ -200,6 +201,11 @@ html {
     }
 }
 
+.content-section a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 #why-attend p {
   font-size: large;
 }
@@ -306,11 +312,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 20px;
     line-height: 1.5;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
 }
 
 /* Center the AddThis FB and Twitter Icons */
