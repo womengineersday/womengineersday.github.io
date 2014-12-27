@@ -314,6 +314,15 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+p.border-emphasis {
+  text-align:center;
+  font-weight:bold;
+  line-height:1.8;
+  padding: 10px 0 10px 0;
+  border-top:1px solid #006C93;
+  border-bottom:1px solid #006C93;
+}
+
 /* Center the AddThis FB and Twitter Icons */
 div.addthis_horizontal_follow_toolbox {
     display: inline-block;
