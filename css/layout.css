@@ -200,6 +200,30 @@ html {
     }
 }
 
+#why-attend p {
+  font-size: large;
+}
+
+#schedule .pre-schedule ul li {
+  list-style-type: square;
+  font-size: large;
+}
+
+#schedule .pre-schedule .large-number {
+  font-size: 3.5em;
+  font-weight: bold;
+  display: block;
+}
+
+#schedule .pre-schedule p {
+  text-align: center;
+}
+
+#schedule .pre-schedule .topic-preview {
+
+}
+
+
 #schedule-table .row div{
   padding: 3px;
   text-align: center;
@@ -281,6 +305,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-align: center;
     margin: 20px;
+    line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 /* Center the AddThis FB and Twitter Icons */
