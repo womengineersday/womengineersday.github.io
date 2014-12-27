@@ -201,6 +201,10 @@ html {
     }
 }
 
+.content-section p {
+  line-height: 1.5;
+}
+
 .content-section a {
   color: inherit;
   text-decoration: underline;
@@ -272,6 +276,10 @@ html {
   #schedule-table .title {
     text-align: left;
   }
+}
+
+#speakers {
+  text-align: center;
 }
 
 /* Images of speakers for the speakers section */
