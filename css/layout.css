@@ -68,6 +68,7 @@ html {
     color: #FFF;
     font-weight: bold;
 }
+
 @media(min-width:1000px) {
     .navbar .navbar-brand {
         font-size: x-large;
@@ -89,7 +90,7 @@ html {
 /* Added padding to increase navbar height on standard screen */
 @media(min-width:1000px) {
     .navbar li a {
-        padding: 20px 10px 20px 10px;  //maintains space around links to allow for the tagline below the navbar brand 
+        padding: 20px 10px 20px 10px;  //maintains space around links to allow for the tagline below the navbar brand
     }
 }
 /* Currently selected/active navbar link */
@@ -200,6 +201,82 @@ html {
     }
 }
 
+.content-section p {
+  line-height: 1.5;
+}
+
+.content-section a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+#why-attend p {
+  font-size: large;
+}
+
+#schedule .pre-schedule .large-number {
+  font-size: 3.5em;
+  font-weight: bold;
+  display: block;
+}
+
+#schedule .pre-schedule p {
+  text-align: center;
+}
+
+#schedule .pre-schedule .topic-preview {
+
+}
+
+
+#schedule-table .row div{
+  padding: 3px;
+  text-align: center;
+}
+
+@media(min-width:1000px) {
+  #schedule-table .row div{
+    padding: 5px;
+    text-align: left;
+  }
+}
+
+#schedule-table .time {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  border-top:  1px dashed #006C93;
+  border-bottom: 1px dashed #006C93;
+  padding: 5px 0px 5px 0px;
+}
+
+#schedule-table .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+#schedule-table .subtitle {
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+}
+
+@media(min-width:1000px) {
+  #schedule-table .time {
+    text-align: right;
+    padding: 0px;
+    border: none;
+  }
+  #schedule-table .title {
+    text-align: left;
+  }
+}
+
+#speakers {
+  text-align: center;
+}
+
 /* Images of speakers for the speakers section */
 #speakers img.speaker {
     width: 90%;
@@ -212,6 +289,10 @@ html {
 /* Center the register section for now */
 #register {
     text-align: center;
+}
+
+#mc-embedded-subscribe-form {
+  margin: 20px;
 }
 
 /** Footer section and content **/
@@ -237,6 +318,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-align: center;
     margin: 20px;
+    line-height: 1.5;
+}
+
+p.border-emphasis {
+  text-align:center;
+  font-weight:bold;
+  line-height:1.8;
+  padding: 10px 0 10px 0;
+  border-top:1px solid #006C93;
+  border-bottom:1px solid #006C93;
+}
+
+ul li {
+  list-style-type: square;
 }
 
 /* Center the AddThis FB and Twitter Icons */
@@ -244,5 +339,3 @@ div.addthis_horizontal_follow_toolbox {
     display: inline-block;
     margin: 0 auto;
 }
-
-
