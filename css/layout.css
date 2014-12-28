@@ -214,11 +214,6 @@ html {
   font-size: large;
 }
 
-#schedule .pre-schedule ul li {
-  list-style-type: square;
-  font-size: large;
-}
-
 #schedule .pre-schedule .large-number {
   font-size: 3.5em;
   font-weight: bold;
@@ -333,6 +328,10 @@ p.border-emphasis {
   padding: 10px 0 10px 0;
   border-top:1px solid #006C93;
   border-bottom:1px solid #006C93;
+}
+
+ul li {
+  list-style-type: square;
 }
 
 /* Center the AddThis FB and Twitter Icons */
