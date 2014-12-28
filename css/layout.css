@@ -154,7 +154,7 @@ html {
 
 @media(min-width:1000px) {
    .intro-section .feature-content h3 {
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -169,12 +169,10 @@ html {
 }
 
 @media(min-width:1000px) {
-    .intro-section .feature-content h3 {
-        display: inline-block;
-    }
     .intro-section .btn-register {
         margin-top: -5px;
         font-size: x-large;
+        display: inline-block;
     }
 }
 
@@ -222,7 +220,7 @@ html {
     color: #FFF;
     background-color: #4C4D4F;
     padding-top: 50px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
 }
 
