@@ -170,7 +170,7 @@ html {
     font-weight: bold;
     display: block;
     margin: 10px auto 0px auto;
-    box-shadow: 0px 2px 2px #888888;
+    box-shadow: 0px 2px 2px #999;
     text-shadow: 1px 1px #333;
 }
 
@@ -180,6 +180,25 @@ html {
         font-size: x-large;
         display: inline-block;
     }
+}
+
+.intro-section .social-media-icons {
+  display: block;
+  margin: 10px;
+}
+.intro-section .mailchimp-subscribe-form {
+  margin: 0px;
+  display: block;
+}
+
+@media(min-width:1000px) {
+  .intro-section .social-media-icons {
+    display: inline;
+  }
+  .intro-section .mailchimp-subscribe-form {
+    margin: 0px;
+    display: inline;
+  }
 }
 
 /** Generic section style **/
@@ -293,11 +312,7 @@ html {
 
 /* Center the register section for now */
 #register {
-    text-align: center;
-}
-
-#mc-embedded-subscribe-form {
-  margin: 20px;
+  text-align: center;
 }
 
 /** Footer section and content **/
@@ -339,7 +354,24 @@ ul li {
   list-style-type: square;
 }
 
-/* Center the AddThis FB and Twitter Icons */
+.mailchimp-subscribe-form {
+  margin: 20px;
+}
+
+.social-media-icons {
+  display: block;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+}
+
+.social-media-icons img {
+  margin: 5px;
+  border-radius: 2px;
+}
+
+/* Center the AddThis FB and Twitter Icons*/
 div.addthis_horizontal_follow_toolbox {
     display: inline-block;
     margin: 0 auto;
