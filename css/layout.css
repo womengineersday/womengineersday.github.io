@@ -308,13 +308,28 @@ html {
 }
 
 /* Images of speakers for the speakers section */
-#speakers img.speaker {
-    width: 90%;
+#speakers img {
+    width:70%;
     height: auto;
     border: 3px solid #4C4D4F;
-    margin: 5px;
     border-radius: 3px;
 }
+
+@media(min-width:1000px) {
+    #speakers img {
+      margin-right: 25px;
+      float: left;
+      width: 20%;
+    }
+}
+
+#speakers .speaker-bio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #006C93;
+}
+
+
 
 /* Center the register section for now */
 #register {
@@ -354,6 +369,7 @@ p.border-emphasis {
   padding: 10px 0 10px 0;
   border-top:1px solid #006C93;
   border-bottom:1px solid #006C93;
+  margin: 10px;
 }
 
 ul li {
