@@ -309,17 +309,18 @@ html {
 
 /* Images of speakers for the speakers section */
 #speakers img {
-    width:70%;
+    width:90%;
     height: auto;
     border: 3px solid #4C4D4F;
     border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media(min-width:1000px) {
     #speakers img {
-      margin-right: 25px;
-      float: left;
-      width: 20%;
+      margin-top: 25px;
     }
 }
 
