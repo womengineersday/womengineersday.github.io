@@ -332,9 +332,29 @@ html {
 
 
 
-/* Center the register section for now */
+/* Center the register section*/
 #register {
   text-align: center;
+}
+
+#register .btn-register {
+	background-color: #D97002;
+    color: #FFFFFF;
+    border: 1px solid #BA6000;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px auto 0px auto;
+    box-shadow: 0px 2px 2px #999;
+    text-shadow: 1px 1px #333;
+	text-decoration: none;
+	display: block;
+}
+
+@media(min-width:1000px) {
+    #register .btn-register {
+		width: 230px;      
+		display: inline-block;
+    }
 }
 
 /** Footer section and content **/
