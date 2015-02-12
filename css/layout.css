@@ -310,6 +310,7 @@ html {
 /* Images of speakers for the speakers section */
 #speakers img {
     width:90%;
+    max-width: 280px;
     height: auto;
     border: 3px solid #4C4D4F;
     border-radius: 3px;
