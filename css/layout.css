@@ -244,6 +244,15 @@ html {
   font-size: large;
 }
 
+#schedule .time p {
+  font-size: large;
+  font-weight: bold;
+}
+
+#schedule .event p {
+  font-size: medium;
+}
+
 #schedule .pre-schedule .large-number {
   font-size: 3.5em;
   font-weight: bold;
