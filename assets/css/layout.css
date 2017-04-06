@@ -192,21 +192,21 @@ html {
   display: block;
   margin: 10px;
 }
-/*
+
 .intro-section .mailchimp-subscribe-form {
   margin: 0px;
   display: block;
 }
-*/
+
 @media(min-width:1000px) {
   .intro-section .social-media-icons {
     display: inline;
   }
- /* .intro-section .mailchimp-subscribe-form {
+  .intro-section .mailchimp-subscribe-form {
     margin: 0px;
     display: inline;
   }
-  */
+  
 }
 
 /** Generic section style **/
